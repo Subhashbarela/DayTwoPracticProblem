@@ -10,7 +10,8 @@ namespace DayTwoCsharpBasicPracticProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Csharp Basic Practic Program");
+            CheckEquality check = new CheckEquality();
+            check.CheckEqualOrNot();
         }
     }
 }
