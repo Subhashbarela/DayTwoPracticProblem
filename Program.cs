@@ -10,7 +10,11 @@ namespace DayTwoCsharpBasicPracticProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Csharp Basic Practic Program");
+            FindNumberOfTable table = new FindNumberOfTable();
+            table.TableOfNum();
+            //find square on given table
+            table.FindSquar();
+            Console.ReadLine();
         }
     }
 }
