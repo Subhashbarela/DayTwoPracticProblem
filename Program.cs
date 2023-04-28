@@ -10,7 +10,9 @@ namespace DayTwoCsharpBasicPracticProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Csharp Basic Practic Program");
+
+            ArithmaticOperation opr = new ArithmaticOperation();
+            opr.Mani_ArithmaticOp();
         }
     }
 }
