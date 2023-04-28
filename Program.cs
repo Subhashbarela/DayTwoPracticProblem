@@ -10,7 +10,9 @@ namespace DayTwoCsharpBasicPracticProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Csharp Basic Practic Program");
+            SumOfNaturalNumber natural = new SumOfNaturalNumber();
+            natural.SumOfN_NaturalNumberMethod();
+            Console.ReadLine();
         }
     }
 }
