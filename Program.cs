@@ -10,7 +10,22 @@ namespace DayTwoCsharpBasicPracticProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Csharp Basic Practic Program");
+            EvenOddNumber evenodd = new EvenOddNumber();
+            Console.WriteLine("Enter the number to check even or odd: ");
+            int num = int.Parse(Console.ReadLine());
+            bool check = evenodd.CheckEvenOrOdd(num);
+           
+                if (check  == true)
+                {
+                    Console.WriteLine("  {0} is Even number: ", num);
+                }
+                else
+                {
+                    Console.WriteLine("  {0} is Odd number: ", num);
+                    
+                }
+            Console.ReadLine();
+
         }
     }
 }
