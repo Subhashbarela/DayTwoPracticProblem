@@ -10,7 +10,13 @@ namespace DayTwoCsharpBasicPracticProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Csharp Basic Practic Program");
+            ReverseString reverse= new ReverseString();
+            Console.WriteLine("Please insert the string to revers");
+            string str=Console.ReadLine();
+            string rev=reverse.ReverseStringMethod(str);
+            Console.WriteLine("Original string is:" + str);
+            Console.WriteLine("Reverse string is: "+rev);
+            Console.ReadLine();
         }
     }
 }
